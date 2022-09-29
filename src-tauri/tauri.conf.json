@@ -1,6 +1,9 @@
 {
   "build": {
-    "beforeDevCommand": "",
+    "beforeDevCommand": {
+      "script": "yarn build_py",
+      "wait": true
+    },
     "beforeBuildCommand": "",
     "devPath": "../src",
     "distDir": "../src",
