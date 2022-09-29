@@ -1,0 +1,19 @@
+{
+  "name": "tauri-rust-py",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build_py": "pyinstaller -F src-tauri/py/test.py --distpath src-tauri/bin/python --clean -n test-x86_64-pc-windows-msvc",
+    "tauri": "tauri",
+    
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "tauri dev",
+    "server": "node ./src/library-server/app.js"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.1.0"
+  }
+}
