@@ -9,6 +9,7 @@ lerna-debug.log*
 
 node_modules
 build
+src-tauri/bin
 dist
 dist-ssr
 *.local
