@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build_py": "pyinstaller -F src-tauri/py/test.py --distpath src-tauri/bin/python --clean -n test-x86_64-pc-windows-msvc",
+    "build_py": "pyinstaller -F py/test.py --distpath src-tauri/bin/python --clean -n test-x86_64-pc-windows-msvc",
     "tauri": "tauri",
     
     "dev": "vite",
